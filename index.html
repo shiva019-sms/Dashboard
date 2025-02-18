@@ -41,15 +41,22 @@
 </head>
 <body>
     <div class="dashboard-container">
-        <h1>Hi,</h1>
-        <p>Welcome to your Streamline Remote Computing Platform. Click the button below to open the SSH terminal.</p>
+        <h1 id="usernameDisplay">Hi, </h1> <!-- Username will be displayed here -->
+        <p>Welcome to your Streamline Remote Computing Platform. 
+            Click the button below to open the SSH terminal.</p>
         <button class="btn" onclick="openSshTerminal()">Open SSH Terminal</button>
     </div>
 
     <script>
+        // Assuming username is fetched from the login page
+        // Assuming you have a login form and a variable to hold the username
+        let username = document.getElementById('usernameInput').value;
+        document.getElementById('usernameDisplay').innerHTML = `Hi, ${username}`;
+
         function openSshTerminal() {
             alert("SSH Terminal Opening...");
-            // You can integrate actual SSH functionality using WebSockets or a backend service
+            // Redirect to the server link after button click
+            window.location.href = 'https://cosmic-gingersnap-4a2c9b.netlify.app/';
         }
     </script>
 </body>
