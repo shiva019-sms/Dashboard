@@ -53,3 +53,19 @@ nohup: ignoring input
 2025-07-12 03:00:02 [INFO] services.data_aggregator: Successfully collected data from wikipedia
 2025-07-12 03:00:02 [INFO] services.data_aggregator: Data gathering completed for: Satya Nadella, confidence: 0.451
 2025-07-12 03:00:02 [INFO] werkzeug: 127.0.0.1 - - [12/Jul/2025 03:00:02] "POST /api/v1/promoter-details HTTP/1.1" 200 -
+2025-07-12 03:46:56 [INFO] werkzeug:  * Detected change in '/workspace/system_diagram.py', reloading
+2025-07-12 03:46:56 [INFO] werkzeug:  * Restarting with stat
+2025-07-12 03:46:56 [INFO] utils.logging_config: Logging configuration setup complete
+2025-07-12 03:46:56 [INFO] utils.logging_config: Log level set to: INFO
+2025-07-12 03:46:56 [INFO] utils.logging_config: Log file: logs/promoter_agent_20250712.log
+2025-07-12 03:46:56 [INFO] __main__: Starting Promoter Details Agent on port 5000
+2025-07-12 03:46:56 [WARNING] werkzeug:  * Debugger is active!
+2025-07-12 03:46:56 [INFO] werkzeug:  * Debugger PIN: 118-423-518
+2025-07-12 03:46:58 [INFO] werkzeug:  * Detected change in '/workspace/system_diagram.py', reloading
+2025-07-12 03:46:58 [INFO] werkzeug:  * Restarting with stat
+2025-07-12 03:46:58 [INFO] utils.logging_config: Logging configuration setup complete
+2025-07-12 03:46:58 [INFO] utils.logging_config: Log level set to: INFO
+2025-07-12 03:46:58 [INFO] utils.logging_config: Log file: logs/promoter_agent_20250712.log
+2025-07-12 03:46:58 [INFO] __main__: Starting Promoter Details Agent on port 5000
+2025-07-12 03:46:58 [WARNING] werkzeug:  * Debugger is active!
+2025-07-12 03:46:58 [INFO] werkzeug:  * Debugger PIN: 118-423-518

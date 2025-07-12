@@ -43,3 +43,19 @@
 2025-07-12 03:00:02 [INFO] services.data_aggregator:200 - _collect_from_all_sources(): Successfully collected data from wikipedia
 2025-07-12 03:00:02 [INFO] services.data_aggregator:91 - gather_comprehensive_data(): Data gathering completed for: Satya Nadella, confidence: 0.451
 2025-07-12 03:00:02 [INFO] werkzeug:97 - _log(): 127.0.0.1 - - [12/Jul/2025 03:00:02] "POST /api/v1/promoter-details HTTP/1.1" 200 -
+2025-07-12 03:46:56 [INFO] werkzeug:97 - _log():  * Detected change in '/workspace/system_diagram.py', reloading
+2025-07-12 03:46:56 [INFO] werkzeug:97 - _log():  * Restarting with stat
+2025-07-12 03:46:56 [INFO] utils.logging_config:83 - setup_logging(): Logging configuration setup complete
+2025-07-12 03:46:56 [INFO] utils.logging_config:84 - setup_logging(): Log level set to: INFO
+2025-07-12 03:46:56 [INFO] utils.logging_config:85 - setup_logging(): Log file: logs/promoter_agent_20250712.log
+2025-07-12 03:46:56 [INFO] __main__:231 - <module>(): Starting Promoter Details Agent on port 5000
+2025-07-12 03:46:56 [WARNING] werkzeug:97 - _log():  * Debugger is active!
+2025-07-12 03:46:56 [INFO] werkzeug:97 - _log():  * Debugger PIN: 118-423-518
+2025-07-12 03:46:58 [INFO] werkzeug:97 - _log():  * Detected change in '/workspace/system_diagram.py', reloading
+2025-07-12 03:46:58 [INFO] werkzeug:97 - _log():  * Restarting with stat
+2025-07-12 03:46:58 [INFO] utils.logging_config:83 - setup_logging(): Logging configuration setup complete
+2025-07-12 03:46:58 [INFO] utils.logging_config:84 - setup_logging(): Log level set to: INFO
+2025-07-12 03:46:58 [INFO] utils.logging_config:85 - setup_logging(): Log file: logs/promoter_agent_20250712.log
+2025-07-12 03:46:58 [INFO] __main__:231 - <module>(): Starting Promoter Details Agent on port 5000
+2025-07-12 03:46:58 [WARNING] werkzeug:97 - _log():  * Debugger is active!
+2025-07-12 03:46:58 [INFO] werkzeug:97 - _log():  * Debugger PIN: 118-423-518
